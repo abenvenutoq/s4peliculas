@@ -27,5 +27,12 @@ public class PeliculaServiceImpl implements PeliculaService {
         return peliculaRepository.findById(id);
 
     }
+
+    // Logica para crear peliculas
+
+    @Override
+    public Peliculas createPeliculas(Peliculas peliculas){
+        return peliculaRepository.save(peliculas);
+    }
     
 }
