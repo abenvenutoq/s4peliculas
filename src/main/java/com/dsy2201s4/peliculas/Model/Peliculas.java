@@ -60,6 +60,32 @@ public class Peliculas {
         return sinopsis;
     }
 
+    // SETTER
+
+    public void setId(Long id){
+        this.id = id;
+    }
+
+    public void setTitulo(String titulo){
+        this.titulo = titulo;
+    }
+
+    public void setAño(Integer año){
+        this.año = año;
+    }
+
+    public void setDirectori(String director){
+        this.director = director;
+    }
+
+    public void setGenero(String genero){
+        this.genero = genero;
+    }
+
+    public void setSinopsis(String sinopsis){
+        this.sinopsis = sinopsis;
+    }
+
 
 
     

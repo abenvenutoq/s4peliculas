@@ -10,9 +10,17 @@ public interface PeliculaService{
     List<Peliculas> getAllPeliculas();
     Optional<Peliculas> getPeliculasById(Long id);
 
-    //Metodo para Crear
+    // Metodo para Crear
 
     Peliculas createPeliculas(Peliculas peliculas);
+
+    // Metodo para modificar
+
+    Peliculas updatePeliculas(Long id, Peliculas peliculas);
+
+    // Metodo para eliminar
+
+    void deletePeliculas(Long id);
 
 }
 
