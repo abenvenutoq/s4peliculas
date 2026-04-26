@@ -35,6 +35,7 @@ public class PeliculaServiceImpl implements PeliculaService {
         return peliculaRepository.save(peliculas);
     }
 
+    // Logica para modificar peliculas
     @Override
     public Peliculas updatePeliculas(Long id, Peliculas peliculas){
         if(peliculaRepository.existsById(id)){
@@ -46,6 +47,7 @@ public class PeliculaServiceImpl implements PeliculaService {
         }
     }
 
+    // Logica para eliminar peliculas
     @Override
     public void deletePeliculas(Long id){
         peliculaRepository.deleteById(id);
