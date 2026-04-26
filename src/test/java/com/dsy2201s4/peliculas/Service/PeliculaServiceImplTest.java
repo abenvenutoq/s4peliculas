@@ -1,7 +1,7 @@
 package com.dsy2201s4.peliculas.Service;
 
 import com.dsy2201s4.peliculas.Model.Peliculas;
-import com.dsy2201s4.peliculas.Repository.PeliculaRepository; // Asegúrate de que esta ruta sea la correcta
+import com.dsy2201s4.peliculas.Repository.PeliculaRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
